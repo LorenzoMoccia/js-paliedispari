@@ -26,9 +26,15 @@ let found = checkIfEvenOrOdd(sum);
 //Controllo il valore della variabile found e decreto un vincitore
 if(found == true && userChoice == "pari"){
     console.log("Ha vinto l'utente! Congratulazioni!")
+    console.log("Numero utente:" + userNumber);
+    console.log("Numero random:" + randomNumber);
+    console.log("Somma dei due numeri:" + sum);
 }
 else if(found == false && userChoice == "dispari"){
     console.log("Ha vinto l'utente! Congratulazioni!")
+    console.log("Numero utente:" + userNumber);
+    console.log("Numero random:" + randomNumber);
+    console.log("Somma dei due numeri:" + sum);
 }
 else{
     console.log("Ha vinto il computer! Mi dispiace.")
