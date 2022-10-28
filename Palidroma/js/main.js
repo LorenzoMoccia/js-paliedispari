@@ -10,7 +10,12 @@ function checkPalidroma(word){
         reverseString += word[i]; 
     }
 
-    console.log(reverseString);
+    if(reverseString == word){
+        console.log("La string e' palindroma!");
+    }
+    else{
+        console.log("La string non e' palindroma!");
+    }
 }
 
 checkPalidroma(userWord);
