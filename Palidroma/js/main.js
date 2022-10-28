@@ -2,7 +2,7 @@
 
 const userWord = prompt("Inserisci una parola");
 
-function checkPalidroma(word){
+function checkPalindroma(word){
 
     let reverseString = "";
 
@@ -18,4 +18,4 @@ function checkPalidroma(word){
     }
 }
 
-checkPalidroma(userWord);
+checkPalindroma(userWord);
