@@ -6,12 +6,12 @@ while(userChoice !== "pari" && userChoice !== "dispari"){
     userChoice = prompt("Scegli Pari o Dispari? Digita 'pari' o 'dispari'");
 }
 
-let userNumber = prompt("Inserisci un numero da 1 a 5");
+let userNumber = Number(prompt("Inserisci un numero da 1 a 5"));
 
 while(userNumber > 5 || userNumber < 1 )
 {
     alert("Hai inserito un numero errato! DEVE ESSERE FRA 1 E 5!");
-    userNumber = prompt("Inserisci un numero da 1 a 5");
+    userNumber = Number(prompt("Inserisci un numero da 1 a 5"));
 }
 
 //Numero random
