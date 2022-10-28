@@ -10,7 +10,7 @@ let userNumber = prompt("Inserisci un numero da 1 a 5");
 
 while(userNumber > 5 || userNumber < 1 )
 {
-    alert("Hai inserito un numero errato! DEVE ESSERE FRA 1 E 5!")
+    alert("Hai inserito un numero errato! DEVE ESSERE FRA 1 E 5!");
     userNumber = prompt("Inserisci un numero da 1 a 5");
 }
 
@@ -25,19 +25,23 @@ let found = checkIfEvenOrOdd(sum);
 
 //Controllo il valore della variabile found e decreto un vincitore
 if(found == true && userChoice == "pari"){
-    console.log("Ha vinto l'utente! Congratulazioni!")
+    console.log("Ha vinto l'utente! Congratulazioni!");
     console.log("Numero utente:" + userNumber);
     console.log("Numero random:" + randomNumber);
     console.log("Somma dei due numeri:" + sum);
 }
 else if(found == false && userChoice == "dispari"){
-    console.log("Ha vinto l'utente! Congratulazioni!")
+    console.log("Ha vinto l'utente! Congratulazioni!");
     console.log("Numero utente:" + userNumber);
     console.log("Numero random:" + randomNumber);
     console.log("Somma dei due numeri:" + sum);
 }
 else{
-    console.log("Ha vinto il computer! Mi dispiace.")
+    console.log("Ha vinto il computer! Mi dispiace.");
+    console.log("Numero utente:" + userNumber);
+    console.log("Numero random:" + randomNumber);
+    console.log("Somma dei due numeri:" + sum);
+
 }
 
 //Funzione genera numero da 1 a 5
