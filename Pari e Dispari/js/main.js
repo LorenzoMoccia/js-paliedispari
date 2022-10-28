@@ -1,9 +1,9 @@
 "use strict";
 
-const userChoice = prompt("Scegli Pari o Dispari? Digita 'pari' o 'dispari'");
+let userChoice = prompt("Scegli Pari o Dispari? Digita 'pari' o 'dispari'");
 
 while(userChoice != "pari" || userChoice != "dispari"){
-    const userChoice = prompt("Scegli Pari o Dispari? Digita 'pari' o 'dispari'");
+    userChoice = prompt("Scegli Pari o Dispari? Digita 'pari' o 'dispari'");
 }
 
 let userNumber = prompt("Inserisci un numero da 1 a 5");
